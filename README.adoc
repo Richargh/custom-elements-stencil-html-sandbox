@@ -1,0 +1,23 @@
+= Custom Elements (Web Components) Sandbox (some via Stencil)
+
+== Features
+
+* link:https://goatui.com/[Goat UI]
+
+== Usage
+
+=== CDN
+Open link:custom-elements-via-cdn.html[] directly in your browser.
+You should see some custom components.
+
+=== NPM
+
+Install dependencies:
+`npm ci`
+
+Copy dependencies to public folder:
+
+Call `npm run dist:goatui` to copy files to public/goatui/dist folder
+
+Open link:custom-elements-via-npm.html[] in something like IntelliJ that can serve files from /public.
+You should see some custom components.

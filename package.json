@@ -1,0 +1,15 @@
+{
+  "name": "custom-elements-stencil-html-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dist:goatui": "cp -r node_modules/@goatui/components/dist/goatui/ public/goatui/dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@goatui/components": "^1.5.2"
+  }
+}
