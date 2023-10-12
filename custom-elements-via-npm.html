@@ -5,18 +5,28 @@
     <meta name='viewport' content='width=device-width'>
     <title>Custom Elements Sandbox</title>
 
-    <script type='module' src='public/goatui/dist/goatui.esm.js'>
-    </script>
+    <!-- GoatUI -->
+    <script type='module' src='public/goatui/dist/goatui.esm.js'></script>
+
+    <!-- Kickstand-UI -->
+    <script type='module' src='public/kickstand-ui/dist/kickstand-ui.esm.js'></script>
+    <link rel="stylesheet" href="public/kickstand-ui/dist/kickstand-ui.css" />
 </head>
 
 <body>
 
+<h1>Custom Elements via NPM</h1>
+
+<h2>GoatUI</h2>
 <goat-button size='lg' color='primary'>Click me</goat-button>
 
 <goat-badge content="1" class="color-warning">
     <goat-icon name="notification" size="lg"></goat-icon>
 </goat-badge>
 
+<h2>Kickstand-UI</h2>
+<ks-button shows="test_modal">Show Modal</ks-button>
+<ks-modal id="test_modal" modal-title="Kickstand UI">A modal with just 2 lines of code!</ks-modal>
 
 </body>
 

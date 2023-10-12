@@ -17,7 +17,23 @@ Install dependencies:
 
 Copy dependencies to public folder:
 
-Call `npm run dist:goatui` to copy files to public/goatui/dist folder
+* Call `npm run dist:goatui` to copy files to public/goatui/dist folder
+* Call `npm run dist:kickstand-ui` to copy files to public/kickstand-ui/dist folder
 
 Open link:custom-elements-via-npm.html[] in something like IntelliJ that can serve files from /public.
 You should see some custom components.
+
+== Libraries
+
+[cols="1,1,1,1"]
+|===
+|GoatUI
+|`npm i @goatui/components`
+|`node_modules/@goatui/components/dist/goatui/goatui.esm.js`
+|https://cdn.jsdelivr.net/npm/@goatui/components@1.5.2/dist/goatui/goatui.esm.js
+
+|Kickstand-UI
+|`npm i kickstand-ui`
+|`node_modules/kickstand-ui/dist/kickstand-ui/kickstand-ui.esm.js`
+|https://unpkg.com/kickstand-ui/dist/kickstand-ui/kickstand-ui.esm.js
+|===
