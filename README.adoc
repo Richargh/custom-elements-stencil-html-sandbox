@@ -7,6 +7,7 @@ Custom Elements (aka Web Components) from:
 * link:https://db-ui.github.io/elements/?path=/story/00-intro-frameworks-javascript--page[DB UI]
 * link:https://goatui.com/[GoatUI]
 * link:https://kickstand-ui.com/[Kickstand-UI]
+* Own-UI, custom element(s) written just to show how easy it is to integrate your own
 
 == Usage
 
