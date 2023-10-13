@@ -25,6 +25,11 @@ You should see some custom components.
 
 [cols="1,1,1,1"]
 |===
+|DB-UI
+|`npm i @db-ui/elements`
+|`node_modules/@db-ui/elements/dist/db-ui-elements/db-ui-elements.esm.js`
+|https://unpkg.com/@db-ui/elements/dist/db-ui-elements/db-ui-elements.esm.js
+
 |GoatUI
 |`npm i @goatui/components`
 |`node_modules/@goatui/components/dist/goatui/goatui.esm.js`

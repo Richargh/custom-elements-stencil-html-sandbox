@@ -5,6 +5,10 @@
     <meta name='viewport' content='width=device-width'>
     <title>Custom Elements Sandbox</title>
 
+    <!-- DB-UI -->
+    <script type='module' src='https://unpkg.com/@db-ui/elements/dist/db-ui-elements/db-ui-elements.esm.js'></script>
+    <link href="https://unpkg.com/@db-ui/core/dist/css/db-ui-core.vars.css" rel="stylesheet" />
+
     <!-- GoatUI -->
     <!-- include your custom theme variable values, view variable names at https://cdn.jsdelivr.net/npm/@goatui/components@1.5.2/dist/goatui/assets/styles/theme.css -->
     <!--link rel="stylesheet" href="/custom-theme.css"></link-->
@@ -19,6 +23,25 @@
 <body>
 
 <h1>Custom Elements via CDN</h1>
+
+<h2>DB-UI</h2>
+<db-breadcrumb aria-label="Breadcrumb">
+    <db-link href="#">Startseite</db-link>
+    <db-link href="#">Page XYZ</db-link>
+    <db-link href="#" current="location">
+        Page ZYS
+    </db-link>
+</db-breadcrumb>
+<db-card header="Buttons" content="Content 1"></db-card>
+
+<db-button variant="brand-primary">Brand Primary</db-button>
+<db-button variant="primary">Primary</db-button>
+<db-button variant="secondary-solid">Secondary solid</db-button>
+<db-button variant="secondary-outline">Secondary Outline</db-button>
+<db-button variant="tertiary-plain">Tertiary plain</db-button>
+<db-toggle htmlid="meineId2" checked>
+    Pre checked toggle
+</db-toggle>
 
 <h2>GoatUI</h2>
 <goat-button size='lg' color='primary'>Click me</goat-button>
