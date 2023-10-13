@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {
-    "dist:goatui": "cp -r node_modules/@goatui/components/dist/goatui/ public/goatui/dist",
-    "dist:kickstand-ui": "cp -r node_modules/kickstand-ui/dist/kickstand-ui/ public/kickstand-ui/dist"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@db-ui/elements": "^0.25.1",
     "@goatui/components": "^1.5.2",
     "kickstand-ui": "^2.18.5"
   }

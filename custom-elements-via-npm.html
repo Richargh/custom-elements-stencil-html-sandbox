@@ -3,7 +3,10 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width'>
-    <title>Custom Elements Sandbox</title>
+    <title>Custom Elements via NPM</title>
+
+    <!-- DB-UI -->
+    <script type='module' src='public/db-ui/dist/db-ui-elements.esm.js'></script>
 
     <!-- GoatUI -->
     <script type='module' src='public/goatui/dist/goatui.esm.js'></script>
@@ -16,6 +19,9 @@
 <body>
 
 <h1>Custom Elements via NPM</h1>
+
+<h2>DB-UI</h2>
+<db-card header="Headline 1" content="Content 1"></db-card>
 
 <h2>GoatUI</h2>
 <goat-button size='lg' color='primary'>Click me</goat-button>

@@ -2,7 +2,11 @@
 
 == Features
 
-* link:https://goatui.com/[Goat UI]
+Custom Elements (aka Web Components) from:
+
+* link:https://db-ui.github.io/elements/?path=/story/00-intro-frameworks-javascript--page[DB UI]
+* link:https://goatui.com/[GoatUI]
+* link:https://kickstand-ui.com/[Kickstand-UI]
 
 == Usage
 
@@ -12,18 +16,12 @@ You should see some custom components.
 
 === NPM
 
-Install dependencies:
-`npm ci`
+. Install dependencies: `npm ci`
+. Copy dependencies to public folder: execute `./dist.sh` in your terminal, on windows via WSFL or Git Bash
+. Open link:custom-elements-via-npm.html[] in something like IntelliJ that can serve files from /public.
+. You should see some custom components.
 
-Copy dependencies to public folder:
-
-* Call `npm run dist:goatui` to copy files to public/goatui/dist folder
-* Call `npm run dist:kickstand-ui` to copy files to public/kickstand-ui/dist folder
-
-Open link:custom-elements-via-npm.html[] in something like IntelliJ that can serve files from /public.
-You should see some custom components.
-
-== Libraries
+== Custom Elements from
 
 [cols="1,1,1,1"]
 |===
@@ -37,3 +35,5 @@ You should see some custom components.
 |`node_modules/kickstand-ui/dist/kickstand-ui/kickstand-ui.esm.js`
 |https://unpkg.com/kickstand-ui/dist/kickstand-ui/kickstand-ui.esm.js
 |===
+
+More Stencil custom elements can be found in this link:https://github.com/mappmechanic/awesome-stenciljs[Github list].
