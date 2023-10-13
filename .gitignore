@@ -5,3 +5,10 @@ node_modules
 .idea
 
 # MacOs
+
+# DB-UI
+fonts/
+icons/
+images/
+js/
+css/

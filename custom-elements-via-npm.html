@@ -6,7 +6,8 @@
     <title>Custom Elements via NPM</title>
 
     <!-- DB-UI -->
-    <script type='module' src='public/db-ui/dist/db-ui-elements.esm.js'></script>
+    <script type='module' src='public/db-ui/dist/elements/db-ui-elements.esm.js'></script>
+    <link href="css/db-ui-core.vars.css" rel="stylesheet" />
 
     <!-- GoatUI -->
     <script type='module' src='public/goatui/dist/goatui.esm.js'></script>
@@ -21,7 +22,23 @@
 <h1>Custom Elements via NPM</h1>
 
 <h2>DB-UI</h2>
-<db-card header="Headline 1" content="Content 1"></db-card>
+<db-breadcrumb aria-label="Breadcrumb">
+    <db-link href="#">Startseite</db-link>
+    <db-link href="#">Page XYZ</db-link>
+    <db-link href="#" current="location">
+        Page ZYS
+    </db-link>
+</db-breadcrumb>
+<db-card header="Buttons" content="Content 1"></db-card>
+
+<db-button variant="brand-primary">Brand Primary</db-button>
+<db-button variant="primary">Primary</db-button>
+<db-button variant="secondary-solid">Secondary solid</db-button>
+<db-button variant="secondary-outline">Secondary Outline</db-button>
+<db-button variant="tertiary-plain">Tertiary plain</db-button>
+<db-toggle htmlid="meineId2" checked>
+    Pre checked toggle
+</db-toggle>
 
 <h2>GoatUI</h2>
 <goat-button size='lg' color='primary'>Click me</goat-button>
